@@ -1,4 +1,27 @@
-
 .history/
-
 .DS_Store
+dump.rdb
+
+# Python
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# IDE/Editor
+.vscode/
+
+# Redis
+appendonly.aof
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
